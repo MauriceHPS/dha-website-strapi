@@ -1,0 +1,19 @@
+services:
+  dha-cms-proxy:
+    image: alpine/socat
+    container_name: dha-cms-proxy
+    command: tcp-listen:1337,fork,reuseaddr tcp-connect:172.17.0.1:1337
+    restart: unless-stopped
+    networks:
+      - webproxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dha-cms.rule=Host(`admin.dha.go.ke`)"
+      - "traefik.http.routers.dha-cms.entrypoints=websecure"
+      - "traefik.http.routers.dha-cms.tls=true"
+      - "traefik.http.routers.dha-cms.tls.certresolver=myresolver"
+      - "traefik.http.services.dha-cms.loadbalancer.server.port=1337"
+
+networks:
+  webproxy:
+    external: true

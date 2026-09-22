@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leadership_profiles",
+  "info": {
+    "singularName": "leadership-profile",
+    "pluralName": "leadership-profiles",
+    "displayName": "Leadership Profile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "executive",
+        "management",
+        "board"
+      ]
+    },
+    "bio": {
+      "type": "blocks"
+    },
+    "achievements": {
+      "type": "json"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

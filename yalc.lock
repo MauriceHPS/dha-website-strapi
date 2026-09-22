@@ -1,0 +1,116 @@
+{
+  "version": "v1",
+  "packages": {
+    "strapi-plugin-todo-example": {
+      "signature": "c37ca63bdae60ee085b4052477dfd473"
+    },
+    "@strapi/cloud-cli": {
+      "signature": "9cd9a2466d3ef9ed6cb565fcf17ee291"
+    },
+    "create-strapi": {
+      "signature": "c4f37a127c48bec4a10f91aef5c12d76"
+    },
+    "create-strapi-app": {
+      "signature": "4238edbbbadf9acff43adb8e1b34e522"
+    },
+    "@strapi/admin": {
+      "signature": "27bbbea4e6c338869e69ada001a621fb"
+    },
+    "@strapi/content-manager": {
+      "signature": "aa3d08768809a168eea91b71b8ceef6c"
+    },
+    "@strapi/content-releases": {
+      "signature": "226821fb45476e347c2f9d8b30784a2e"
+    },
+    "@strapi/content-type-builder": {
+      "signature": "e6f6de3f5c5fa60ef50b9d44e23d6544"
+    },
+    "@strapi/core": {
+      "signature": "1463dda914f712cf1c8a01ea6de0348e"
+    },
+    "@strapi/data-transfer": {
+      "signature": "dabd7101ba5a94f27b6cc769fa77a63d"
+    },
+    "@strapi/database": {
+      "signature": "6240e44f17b366b198f213b33a03c3fe"
+    },
+    "@strapi/email": {
+      "signature": "cf824ba327ee4e1e099215e077b0b0ce"
+    },
+    "@strapi/permissions": {
+      "signature": "65274f073792a5d2d1153e49f6643413"
+    },
+    "@strapi/review-workflows": {
+      "signature": "0d788519e59203a8b072ce23e349f262"
+    },
+    "@strapi/strapi": {
+      "signature": "4aa0e2c73cede0766adc3e11adc7b9f3"
+    },
+    "@strapi/types": {
+      "signature": "ca7537790e2072b02d6b22f0230b77cc"
+    },
+    "@strapi/upload": {
+      "signature": "60bc51806c83362b79e2b0e25339e209"
+    },
+    "@strapi/utils": {
+      "signature": "1a7c352567e44579c4dc5e418a762b1f"
+    },
+    "@strapi/generators": {
+      "signature": "6c2878816e5eaf10f35ad118f6f09dcb"
+    },
+    "@strapi/plugin-cloud": {
+      "signature": "aa2f198c9dc3cd8277bf1880c2641e6a"
+    },
+    "@strapi/plugin-color-picker": {
+      "signature": "b0215b89c6a4e0f5b7145fb0762ae024"
+    },
+    "@strapi/plugin-documentation": {
+      "signature": "6f6f7501c60b691ba703bff8d966dbe7"
+    },
+    "@strapi/plugin-graphql": {
+      "signature": "0b824a4268a6a43e9f93d656ff7c7042"
+    },
+    "@strapi/i18n": {
+      "signature": "048287218fbbde953799f7827f4d3c33"
+    },
+    "@strapi/plugin-sentry": {
+      "signature": "fe12a13bd2445e0f55415ce45ec31b6e"
+    },
+    "@strapi/plugin-users-permissions": {
+      "signature": "96ab28b898976d6e823aab3a588f718b"
+    },
+    "@strapi/provider-email-amazon-ses": {
+      "signature": "113cf5f18b673cade31e6e1426952698"
+    },
+    "@strapi/provider-email-mailgun": {
+      "signature": "ab1c883fccb764edeb7441f69fe7bd81"
+    },
+    "@strapi/provider-email-nodemailer": {
+      "signature": "9773d6d73dfa0e5aa57a026556535b72"
+    },
+    "@strapi/provider-email-sendgrid": {
+      "signature": "54012e8ca9ccbb381b42bcacf2d0926a"
+    },
+    "@strapi/provider-email-sendmail": {
+      "signature": "b1a2f216f6c48a5431713d12715adcdf"
+    },
+    "@strapi/provider-upload-aws-s3": {
+      "signature": "acfdba3cbe5625363322e0e1792da877"
+    },
+    "@strapi/provider-upload-cloudinary": {
+      "signature": "b340f1ab32a0810b8e2281427d3936d1"
+    },
+    "@strapi/provider-upload-local": {
+      "signature": "5cea4eb06859179acbaded7bffd404fa"
+    },
+    "@strapi/logger": {
+      "signature": "a915352685c81bfad4ef6e603fe3633c"
+    },
+    "@strapi/typescript-utils": {
+      "signature": "045b1d2bf3cd53d3bcb7cd9e5c888230"
+    },
+    "@strapi/upgrade": {
+      "signature": "4409a4d28051f4c13ab685bf828a21a8"
+    }
+  }
+}

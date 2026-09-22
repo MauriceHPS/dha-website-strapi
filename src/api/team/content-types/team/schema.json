@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "Team"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "required": true,
+      "default": "Board Member",
+      "enum": [
+        "Board Member",
+        "Management",
+        "Directorate"
+      ]
+    },
+    "salutation": {
+      "type": "enumeration",
+      "required": true,
+      "default": "Mr",
+      "enum": [
+        "Mr",
+        "Ms",
+        "Mrs",
+        "Dr",
+        "Eng"
+      ]
+    },
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

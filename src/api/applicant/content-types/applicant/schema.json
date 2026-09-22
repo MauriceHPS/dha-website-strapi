@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applicants",
+  "info": {
+    "singularName": "applicant",
+    "pluralName": "applicants",
+    "displayName": "applicant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "text"
+    },
+    "resume": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

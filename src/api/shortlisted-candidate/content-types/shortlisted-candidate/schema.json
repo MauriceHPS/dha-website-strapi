@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shortlisted_candidates",
+  "info": {
+    "singularName": "shortlisted-candidate",
+    "pluralName": "shortlisted-candidates",
+    "displayName": "Shortlisted Candidates"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "publishedDate": {
+      "type": "date"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

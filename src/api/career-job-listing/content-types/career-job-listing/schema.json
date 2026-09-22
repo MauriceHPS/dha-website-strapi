@@ -1,0 +1,98 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_job_listings",
+  "info": {
+    "singularName": "career-job-listing",
+    "pluralName": "career-job-listings",
+    "displayName": "Career Job Listing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "listingId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Contract",
+        "Permanent",
+        "Part-time",
+        "Internship"
+      ]
+    },
+    "experience": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "postedDate": {
+      "type": "date"
+    },
+    "deadline": {
+      "type": "date"
+    },
+    "jobGrade": {
+      "type": "string"
+    },
+    "contractDuration": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "jobPurpose": {
+      "type": "blocks"
+    },
+    "requirements": {
+      "type": "json"
+    },
+    "responsibilities": {
+      "type": "json"
+    },
+    "complianceCertificates": {
+      "type": "json"
+    },
+    "applicationMethods": {
+      "type": "json"
+    },
+    "benefits": {
+      "type": "json"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "isUrgent": {
+      "type": "boolean"
+    },
+    "applicationFormUrl": {
+      "type": "string"
+    },
+    "qrCode": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

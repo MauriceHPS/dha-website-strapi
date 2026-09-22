@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "closed_facilities",
+  "info": {
+    "singularName": "closed-facility",
+    "pluralName": "closed-facilities",
+    "displayName": "Closed Facility"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "facilityStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Superseded"
+      ]
+    },
+    "fileSize": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "keyInformation": {
+      "type": "json"
+    },
+    "closureReasons": {
+      "type": "json"
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "priority": {
+      "type": "enumeration",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "publicationDate": {
+      "type": "date"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

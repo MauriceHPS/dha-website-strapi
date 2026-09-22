@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tender_listings",
+  "info": {
+    "singularName": "tender-listing",
+    "pluralName": "tender-listings",
+    "displayName": "Tender Listing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tenderId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "tenderStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Open",
+        "Closed",
+        "Evaluation",
+        "Awarded",
+        "Cancelled"
+      ]
+    },
+    "postedDate": {
+      "type": "date"
+    },
+    "deadline": {
+      "type": "date"
+    },
+    "closingTime": {
+      "type": "date"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "requirements": {
+      "type": "json"
+    },
+    "documents": {
+      "type": "json"
+    },
+    "contactPerson": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "string"
+    },
+    "contactPhone": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
